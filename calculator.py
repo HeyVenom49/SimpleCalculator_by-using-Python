@@ -1,6 +1,5 @@
 # Program make a simple calculator
-
-# This function adds two numbers
+print("welcome to Calculator")
 def add(x, y):
     return (x + y)
 
@@ -18,7 +17,7 @@ def divide(x, y):
 
 # This fuction modulus two numbers
 def modulus(x, y):
-    return (x % y)
+    return (x % y) #modulous operator returns remainder
 
 # This fuction exponentiation two numbers
 def exponentiation(x, y):
@@ -26,7 +25,7 @@ def exponentiation(x, y):
 
 # This fuction floor division two numbers
 def floor_division(x, y):
-    return (x // y)
+    return (x // y) #it returns output without decimal points
 
 print("Select operation.")
 print("1.Add")
