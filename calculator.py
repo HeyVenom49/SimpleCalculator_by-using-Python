@@ -69,10 +69,10 @@ while True:
 
         # check if user wants another calculation
         # break the while loop if answer is no
-        next_calculation = input("Let's do next calculation? (yes/no): ")
+        next_calculation = input("Let's do next calculation? (yes/no): ")# thid specific code gives you the chooise of you want to calculate more or not
         if next_calculation == "no":
             print("Thank You")
-            break
+            break 
     
     else:
         print("Invalid Input")
